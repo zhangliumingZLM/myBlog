@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "nodemon app.js",
     "dev": "cross-env NODE_ENV=development nodemon app.js"
   },
   "dependencies": {

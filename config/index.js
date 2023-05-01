@@ -70,7 +70,7 @@ if (!devMode) {
   config.GITHUB.client_secret = ''
 
   // ==== 配置 token 密钥
-  config.TOKEN.secret = ''
+  config.TOKEN.secret = 'zlm'
 
   // ==== 配置邮箱
 
