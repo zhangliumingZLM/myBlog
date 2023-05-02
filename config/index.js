@@ -19,16 +19,16 @@ const config = {
       port: 465,
       secure: true, // true for 465, false for other ports
       auth: {
-        user: 'guodadablog@163.com', // generated ethereal user
+        user: '2822066366@qq.com', // generated ethereal user
         pass: '123456' // generated ethereal password 授权码 而非 密码
       }
     },
-    subject: '郭大大的博客 - 您的评论获得新的回复！', // 主题
+    subject: 'LM的博客 - 您的评论获得新的回复！', // 主题
     text: '您的评论获得新的回复！',
     WEB_HOST: 'http://127.0.0.1:3000' // email callback url
   },
   TOKEN: {
-    secret: 'guo-test', // secret is very important!
+    secret: 'zlm', // secret is very important!
     expiresIn: '720h' // token 有效期
   },
   DATABASE: {
@@ -76,7 +76,7 @@ if (!devMode) {
 
   // config.EMAIL_NOTICE.enable = true
   config.EMAIL_NOTICE.transporterConfig.auth = {
-    user: 'guodadablog@163.com', // generated ethereal user
+    user: '2822066366@qq.com', // generated ethereal user
     pass: '123456XXX' // generated ethereal password 授权码 而非 密码
   }
   config.EMAIL_NOTICE.WEB_HOST = 'https://guodada.fun'
